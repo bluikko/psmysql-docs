@@ -17,6 +17,8 @@ ldd --version
 
 If the `glibc2` version from your operating system is not listed, then this Percona Server for MySQL version does not support that operating system.
 
+The tarball links shared libraries from the operating system it was built on. Package names for those libraries are on the [Operating system libraries](os-libraries.md) page.
+
 ## Binary tarball file name organization
 
 The following lists the platform and the associated full binary file name used by Percona Server for MySQL tar files {{release}}.
